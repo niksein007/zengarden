@@ -2,9 +2,210 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy');
 @import url('https://fonts.googleapis.com/css?family=Roboto:300');
 
+h1{
+    font-family: 'Roboto', sans-serif;
+    color: floralwhite;
+    font-weight: 900;
+    text-shadow: 2px 2px black;
+    text-transform: uppercase;
+    font-size: xx-large;
+    padding-top: 50px;
+}
+    
+
 h2 {
-    background: url(../img/zen.svg);
+    background: url('./img/zen.svg');
     background-repeat: no-repeat;
     background-size: contain;
+    background-position: 35% 65%;
+    color: floralwhite;
+    font-size: 20px;
+}
+header{
+    text-align: center ;
+    height: 200px;
+}
+.intro h2{
+    font-family: 'satisfy', sans-serif;
 }
 
+
+#css-zen-garden{
+    font-family: 'IBM Plex Mono', sans-serif;
+    background-image: url('./img/bamboo.png');
+}
+header{
+    background-image: url(./img/huntington.png);
+
+}
+.summary p:nth-child(2) a{
+    color: black;
+}
+.summary p:nth-child(2) a:nth-child(2){
+    text-decoration: none;
+}
+.summary,.preamble,.explanation{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.participation{
+    margin-bottom: 0px;
+}
+.participation h3{
+     color: black;
+}
+.participation a{
+    color: black;
+    text-decoration: none;
+}
+
+.participation,.benefits{
+    color: floralwhite;
+    background-color:rgb(62, 124, 95) ;
+    padding-left: 10%;
+    padding-right: 10%;
+    /* padding-top: 3px; */
+    padding-bottom: 5px;
+
+}
+.benefits{
+    margin-top: -20px;
+}
+
+.requirements p{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+abbr[title]{
+    text-decoration: none;
+}
+.requirements h3{
+    margin-left: 10%;
+}
+ .requirements p:nth-child(5) a{
+    
+    color: black;
+    text-decoration: black;
+    font-weight: bold;
+}
+
+.requirements p[role]{
+    background-color: rgb(62, 124, 95) ;
+    color: gray;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    /* background-image: url(./img/koi.jpg); */
+    /* background-size:200% ; */
+   
+   margin-left: 0%; 
+   margin-right: 0%;
+}
+.requirements p[role] a{
+    font-family: 'satisfy', sans-serif;
+    color: floralwhite;
+    font-size: 30px;
+    text-decoration: none;  
+}
+
+
+.requirements p[role] a:hover{
+    text-decoration: underline;
+
+}
+footer{
+    background-color:darkslategray;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -20px;
+    text-align: center;
+    
+}
+footer a{
+    margin-left: 10px;
+    color: floralwhite;
+    font-size: 25px;
+    text-decoration: none;
+}
+footer a:hover{
+    color: gray;
+}
+
+aside{margin-top: -20px;
+    background-color: rgb(166, 202, 191);
+}
+aside ul{
+    list-style-type: none;
+    margin-left: -2.5%;
+    
+}
+nav ul li{
+    border-bottom:1px solid grey;
+    height: 40px;
+    margin-left: -4px;
+    padding-top: 10px;
+    padding-left: 15%;
+    
+}
+nav ul li a{
+    /* background-color: darkturquoise; */
+    color: black;
+    text-decoration: none;
+}
+
+.design-selection nav ul li:nth-child(2){
+float: right;
+margin-top: -30px;
+border-bottom:none;
+padding-right: 20%;
+padding-top: 0;
+}
+   .design-selection nav ul li:nth-child(4){
+        float: right;
+        margin-top: -30px;
+        border-bottom:none;
+        padding-right: 20%;
+        padding-top: 0;
+        }
+
+   .design-selection nav ul li:nth-child(6){
+        float: right;
+        margin-top: -30px;
+        border-bottom:none;
+        padding-right: 20%;
+        padding-top: 0;
+        }
+      .design-selection  nav ul li:nth-child(8){
+            float: right;
+            margin-top: -30px;
+            border-bottom:none;
+            padding-right: 20%;
+            padding-top: 0;
+            }
+nav ul li a:nth-child(2){
+    color: gray;
+    font-size: smaller;
+}
+
+
+.design-selection h3{
+    display: none;
+}
+.design-archives nav ul li a{
+    color: gray;
+    font-size: smaller;
+}
+  .next{
+    
+    float: right;
+    padding-right: 20%;
+    
+}
+.design-archives h3{
+    display: none;
+}
+
+
+.zen-resources{
+    display: none;
+}
