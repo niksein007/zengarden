@@ -207,5 +207,42 @@ nav ul li a:nth-child(2){
 
 
 .zen-resources{
+    background-color:rgb(62, 124, 95)  ;
+    margin-top: 0;
+    height:100px;
+    
+}
+.zen-resources ul li{
+    padding-top: 10px;
+    
+}
+.view-css{
+    padding-left: 15%;
+}
+.css-resources{
+    padding-left: 18%;
+}
+.zen-faq{
+    padding-left: 21%;
+}
+
+.zen-resources ul li a{
+    font-size: smaller;
+    color: blanchedalmond;
+    text-decoration: none;
+
+}
+.zen-resources h3{
     display: none;
+}
+
+.zen-submit{
+    float: right;
+    margin-top: -85px;
+    padding-right: 20%;
+}
+.zen-translations{
+    float: right;
+    margin-top: -50px;
+    padding-right: 21%;
 }
